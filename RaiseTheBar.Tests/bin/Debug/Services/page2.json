@@ -1,0 +1,641 @@
+﻿{
+  "html_attributions": [ ],
+  "next_page_token": "token2",
+    "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0590224,
+          "lng": 19.9392257
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "3ec575cdbab153a664ba318f1327822f08501fdd",
+      "name": "BeerGallery - Dominikańska",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104197083315861649505/photos\">BeerGallery - Dominikańska</a>"
+          ],
+          "photo_reference": "CoQBcwAAAKcgotqya5qvdHImos6Vp_g2ZwxPORUUWk8BvoCBhandHDBTEdoQh7SUynUcZfO06t3Lc-fxQgLCydUAYVvhCl0ehZ1i75sn8wYZIUQzr69OvnFNeh_hsPDUxkrjMQfwK5QMsZhPwqHLpTmd4Cg1SxQNIH2LYUBgs0XGligdlV6fEhDhm5l2JCAyX189vcIjEjizGhQweDATwg7dz6wTIsm0cvWJBaVYTQ",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJA6PXjWpbFkcRUTuxTnRoR7I",
+      "rating": 4,
+      "reference": "CnRvAAAAm7bG69ffHn-ssOrdRgFBRcJ8DMFh41p2eW-xirL5UMq51RdMHL2OLKDjQ4gkxGyMkXddEQnx3BYj3dNeLb91UWOPt2kgK592fC0Sg1p_MM_c84Tl0GS0ERIMd_MRUdwxO0xn-p6pmIWr_uSFhyoxQxIQWfNMUq3G46dmEtEW6xDyghoUjrB226TnE_LDXKi7t8kJv869Hs4",
+      "scope": "GOOGLE",
+      "types": [ "bar", "food", "point_of_interest", "establishment" ],
+      "vicinity": "Dominikańska 3, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.05323549999999,
+          "lng": 19.9469176
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "28545bd762479009e11c9c82ffb51f17741385e4",
+      "name": "Restauracja \"TREZO",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 3264,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115082301620789053230/photos\">Jean Hyclak</a>"
+          ],
+          "photo_reference": "CoQBcwAAAP3itMUeH8Mx6KXuHFp1mposzsnN0j1LpcrN2mCHP_O6w57m1G9_8ngwkY43hl7ZpzUSdQ5P8LgJwc2QFOxsGwpQzFON2YkAriSjZJ8oJJ4kup7wJqlYu1XTgJJrszdqB-a1W70qVlwoUzA6dWr2aZQxj2LU99Gd4_sEREkKW1WVEhCj2m7FMHq84Ha3c7kDET4WGhQaPWhxDej0aMuFLCs6UlaeTBHXiw",
+          "width": 2448
+        }
+      ],
+      "place_id": "ChIJ3yzrl2pbFkcRn546lkZ_9FM",
+      "rating": 4.6,
+      "reference": "CnRmAAAA5fT0Nl2zXteDjKLzolRd4yoIrA8-IAyii7EexSSm_-y18X1xT3jrlYHdWM557A7QJ_6-i-y9C2wMJdQM9EFligrs1c8M-V-No3QL7B-QLriZI_V2UZ2PEm6YqiGvoRQnkX8Tz_0cgohxFacFO2oPhhIQdI4qvtWx5PgqR2Njw1QOYxoUKeYFPDSVEPS8INRNEbOxeoaHj5c",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "cafe",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Miodowa 33, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.05823299999999,
+          "lng": 19.925079
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+      "id": "a2fc0a79785767aa0259ac7e1cac8d9147be26ef",
+      "name": "OFFKIJÓWKLUB",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 420,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116755576408817506693/photos\">OFFKIJÓWKLUB</a>"
+          ],
+          "photo_reference": "CoQBcwAAAMoTDdToxBKmBAmmcoygSBSZV_Yep2df4tY7mA07H6D3EaGUULkMjhGBErJlmX1HLp7PHkv9Slcp8mbOoUsM5R7LR1UWTyGN_5dHwQVaL6pnYeNTRi0gmXq6C-XENOhm--KKGCrS2aKfYhk5_wFDe3mEsh2bpPFXiE_GpXL7sw5BEhBmtNvQ6LkUYUVLohDbgfVUGhR7gPtT6i_kEbPS-bd-WN7YvOgsDA",
+          "width": 680
+        }
+      ],
+      "place_id": "ChIJRRL0y3RbFkcRaDMBYKsqDwA",
+      "reference": "CmRfAAAACsR8SkdWwHce_HDjmoNx0o3McqG5WLP3gWZW8yppQtiiL6GKh1fVjEN6CZ8B3nSvw-uAAKXN5pQmPG9fOfF7JpADowztNTNoRLaKz65UyeifurPW9CuXwKZ_XmCkq_xFEhByoYPgg7zAjlau7JIzhPlFGhQFbxxH3KsPqe1xxf8QxcJummJS3Q",
+      "scope": "GOOGLE",
+      "types": [
+        "movie_theater",
+        "cafe",
+        "food",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "aleja Zygmunta Krasińskiego 34, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0641003,
+          "lng": 19.9360367
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "4184af560a7198d0072d276ae52ab67a37b2271c",
+      "name": "Bania-Luka",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 3240,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106033815554310116556/photos\">Maciej Janiec</a>"
+          ],
+          "photo_reference": "CoQBdwAAADq8E5bKMrCXbryixuxLRKFyuy9F6SUMLFQKSUaj__SXkjMcy-ZOhvlHhuMLf0NwTaMBP4I9wzQP3Qmj2Eas5QLy9trRYYnpmo31OekigbPkjlTBbykqTW8cGlFHHXytGuvWPsfg6AJAyd3m0_-QsT1za1sNfFLIYeR1Wsf3Sk3ZEhBudKdDys-MW097KG68SpyaGhTh61nvX3UfMQxSaLPNmQ0xNrmz7w",
+          "width": 4320
+        }
+      ],
+      "place_id": "ChIJNaSf-A5bFkcRm9ykekA9l0Y",
+      "rating": 3.8,
+      "reference": "CmRdAAAAunV2k3IMR0DMrCJyQ8_8YeZk-16eUe0X8YWtnOtfYNmVNeAXb1C8waW-NsOvr2Vkw1Rb2rAYLuEf2e3z-4ztC9eekbFI0bxqCOoPHR-BdjHjpF6pb865SHfpkaGR_INsEhC4a69YXwQuXe0rLFxFtzGYGhRhljzQLpGDslfU-gTyPYFwvq0IHA",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "plac Szczepański 6, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.05343269999999,
+          "lng": 19.9477153
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "512fbfede7a93c1b71d7e0558071a2c9114cadb9",
+      "name": "PUB Pod Ziemią - ROCKowa piwnica na Kazimierzu",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1465,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101485385729209691452/photos\">PUB Pod Ziemią - ROCKowa piwnica na Kazimierzu</a>"
+          ],
+          "photo_reference": "CoQBdwAAAKOn58hQwqTbUxLGWMoZ5hWbOKe2_vVzGXjQmaT0wALgv1PunoPUJtmQJD_gSSPQC0x-7noF8WsfT4xsmYpYlUoR_tKU6Him2tPvdAdkFk9pd_62rCOhXNICzxb7GM4tpbt_O-lz7QD37fnaDCtXhHoQK8-FX1QGz4fh1jSXkV2yEhAwbq35NRlTeHxCUzPlDN-AGhRCuQgqUIOnyDmjOtxaaRY0hnoraA",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJ211YoWpbFkcRUoxDvzw-SW4",
+      "rating": 3.9,
+      "reference": "CpQBgwAAAEeVPx0Wj6BOF8Aetqdc7Y2TiQA6V4uXMIGX_V_SJPBmXZHandjSCoDH43b6m6r9bSLaVZqZ0CqgWPxO_ntvBqqeGOlyB22UBzDSN0io0AZ9WdrYqpjtTcHF_5gG3BR9YxYlBwa2uxe9bYo_frowIrbRCBH1ZCtz4k9OP-zBI7vidLi7spzyvsVPt6YbR3XTjRIQdLj0NY09rrratEGUlIhAyBoUOLlV4jQlz-V9hiyEtj9XLVTnJoQ",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Miodowa 43, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.05156399999999,
+          "lng": 19.943471
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "fd8a3062314d1c42862c51b51e0024cf8d4b4d7a",
+      "name": "Pozytywka. Klub",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 850,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108661763033420819650/photos\">Pozytywka. Klub</a>"
+          ],
+          "photo_reference": "CoQBcwAAAPyhzSg_XkIcOPkGvwDTReHVAYjm2Ja5_8nkAGPLycnaMk6IVr3SuJjzph_lRjf_zDGB2KfzidwvZqpTUPikNE8SOnwqy44iQfth4IMjLhJ7_WozDVJC5-b9uj964mSWe97_VgHu0EaJfkRBzuMpNdauFIy_zRMos6aVocFJ6_VTEhCKl5i859RSjaZ7rJnrk3QQGhRjxX51rBqhzAUXVs3GIiXgTLufLQ",
+          "width": 852
+        }
+      ],
+      "place_id": "ChIJXx7cTmpbFkcRml4NKSN-haY",
+      "rating": 4.2,
+      "reference": "CnRjAAAAFuChz3TbuG8QZM3xk79s708iO9OnaKSme5re6TsaHc2K8BsM4GQX4WWo3pImLLJzdqZbhYSqahQml_LmubThOlCW0OoY0ZaUIGCRgYSloS9RJmbr1_PMYmXmx3BQuPyqvW974kaoj2ph93Bz1-qGuxIQpRca8vy5WbBO8t9YxfdnMxoUdB83V6pkUFhwrBIAzi8hL8KyEUY",
+      "scope": "GOOGLE",
+      "types": [ "restaurant", "food", "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Bożego Ciała 12, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.07452,
+          "lng": 19.9295535
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "da04147e88a16cc4534e67301b438fd53ad001b1",
+      "name": "Dali Club & Lunch Bar Cafe",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1063,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117750171241284758638/photos\">Dali Club &amp; Lunch Bar Cafe</a>"
+          ],
+          "photo_reference": "CoQBcwAAACamP4KhGBCl6sAz8msKSCTUUEAWxWspv9NunrIsQGP2ooLxtuFU4TEBX7cLxC1apYItOaQwn-j2GFgDL12gHhm-2d_6Gn02urhXsuAIgCk2sgg2gY0nqTkieIkWsO3E2O3UO6vRd5k6ll0ZtQvdZVyVBzXAXZ50FmWAOsA3jOmrEhCQz3YK7huH7fXUXqed10B0GhQ8EqzLNGHuJpuZbSIBf6_QTCTo7Q",
+          "width": 1603
+        }
+      ],
+      "place_id": "ChIJLTGXJapbFkcRgKIVAkg1ywo",
+      "rating": 4.5,
+      "reference": "CnRtAAAA2Mwp_0X8DhnUpK0erCM7-7Ohl6vpPv-JfPYzlO7Uwz1oRnrlBEDsgKgawfn1UFbLQvBmbMD5rZvEd3014QI8oVUFQnamGOwLsNEOfSsqenzDhdNT3rK42dQ-cxKw_je36fTe4prfz2WH6dvh1wRk-RIQs0tvnsQdQVeRetPIhAx6aRoU3g3cUa7tPRahGEf3YnOHU3-ZAd0",
+      "scope": "GOOGLE",
+      "types": [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+      "vicinity": "Mazowiecka 21, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0506791,
+          "lng": 19.9441408
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "94603632c83915d46dbcbeedc2b36ff96b31a585",
+      "name": "Stajnia Pub",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 359,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113642390566625563041/photos\">Stajnia Pub</a>"
+          ],
+          "photo_reference": "CoQBcwAAABWW3IiYFA_mF64XMXS0G0GBWuSDR6cGL6uwHiOMOAeS9K8NdVmA23_0fg198n11S8ZrTZjPVoeCULv-RRCGpA-wApYGtsAXejCn1L4pwYh8CrubKbsshsNbO4MKmFkwxpSQ_1INkKTUsOfzZboTDrxtAeq7wkMpIJEAtAhUjBq-EhA2HxqpTgOzrQTdQ4m2qY3NGhTKbtI4GWQx01GUWYDfUTdnHUJBng",
+          "width": 359
+        }
+      ],
+      "place_id": "ChIJkZwvFmpbFkcRl75XERqP1Y0",
+      "rating": 4,
+      "reference": "CmRfAAAAf_dhFioESfRqUQsh9prfiGx5FF652CCdjZVTfn97TaFRPnsRWpgND79cwhWHHDcOwuPqG5hdVhZILa0qLz3FK60XQr3Iz2k2K9PqQGz2A1EserDhLBLCEtaY0lAW9qF5EhBD2Lc20Evv9IxwBZcJ7QxhGhQ8VSOngg4Whhj1YeAcUCP2CdwOwA",
+      "scope": "GOOGLE",
+      "types": [ "restaurant", "food", "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Józefa 12, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0577429,
+          "lng": 19.9385935
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "171d55c7fe66f8d1925c32ad6916b352df5688f6",
+      "name": "Tygiel Pub",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 596,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110939453754917461797/photos\">Adam K</a>"
+          ],
+          "photo_reference": "CoQBcwAAAKXkmZQRkJfOAleR9zA-bQfSESjycTj45t4Z5a_5j4LwXNrnBuL4X1hOcm5CQLqesNFBEIRE4H3k4OKDE20qgMMqK9t5ikeJ08N9rqgIUOz-aoP6AllZy0sfKykzc7hopveVzsGFts24h_CWVs65G4x2wpvkf5hNBX0MwpnPX-n4EhBgLyKoFxwqfYIcq74jVeFGGhTpAu9SCHV4UU7EQ3tMspXgGeGH2g",
+          "width": 797
+        }
+      ],
+      "place_id": "ChIJMwrR6RJbFkcRxCjMg-7Uo7w",
+      "reference": "CmReAAAA6TA3iiD4d6GSLtRhRUZPVo7248Jb7tOMT3PXFp6iAyTA3o7504SEsiv7kNjs6wCmlsb7Vk-B4iEE8bAC2u718sq8Q0xsVEUh2OuT5bifKvk_DPnz5uN_60619svsYD45EhB5V6ZcaKqksx70PLKvKFabGhSWuPPEFgIQpTFENEePZP20JMIrKg",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Senacka 9, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.06152199999999,
+          "lng": 19.9355054
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "4ed1788c6f32b2c189b4115205e3d539f9e53ede",
+      "name": "Piwnica Pod Baranami",
+      "photos": [
+        {
+          "height": 3264,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103935170200408017753/photos\">Alec Doran-Twyford</a>"
+          ],
+          "photo_reference": "CoQBcwAAAD68hOqzyCNQvsg3pW1A_NS7o3fZGijQcPf7rPxM3Th1R09uVIJNjq4aRCud1ypO2SdUu7NbvyZkSnvhYx1qUZCWmtZosYzYLrgFouCWCNOF7ATWn7OMXZY0-Ecg4p84MSuKJQw7CHvBByOc5vnpDYXcC-RKweA0CVA2Et8ulKOsEhBUYyh2wzROtu-dlKMTfnWqGhSDVjvjsi9yHffyqeeEaxxq7YmH2A",
+          "width": 2448
+        }
+      ],
+      "place_id": "ChIJlw8d3A1bFkcRqJxp52Plnk4",
+      "rating": 4.4,
+      "reference": "CnRnAAAAoDnlmzdlSDSCNm5FmUtJzUJcRlvtMW0dFUKZvXR-GWD1dw-bnh7W2_VJId5GqB-063rbrlG2obIB6jzx6j4EsJYxs9yrKhyJW7uYY1VHB0j0LPwNAmoY--Ml9Tv9gVgXkzHm5wGJU9v4AlVcvonsRRIQCauMxgbHjxb0vZG1cxDxBxoUPel72-UDl0sNvXxqTI8geFp2M8U",
+      "scope": "GOOGLE",
+      "types": [
+        "bar",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Rynek Główny 27, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0514721,
+          "lng": 19.9455651
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "55df0cd0ddc34ce6ef3c15e214b828184925d83e",
+      "name": "Klub Bilardowy PIK",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1360,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111221229265391999115/photos\">Klub Bilardowy PIK</a>"
+          ],
+          "photo_reference": "CoQBcwAAAG2vzd-Ghxkego3TLSYu1RrQqgKkCWBEfnKXIXBHvlH2es5i69LobH1mOoiBpIDGdi_QTLV0QFiLWyasKKy8ggqIrhQsTje8FgP19Ck8sJnrc8sjI8aN5pjU3xcL8Y1fsCCZx-XMN263BTJa1fBOavoTlWG5JbvPu7FO_HYlJ62XEhCH4eQKQIYePQz2zQy1MU3eGhTVXh2Z0IinqefPd7Yiv8MaOJ4BDg",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJCcOCb2pbFkcRluE5QOLjdoo",
+      "rating": 4.5,
+      "reference": "CnRmAAAAzQxuiaB7pM-jBiGTWMRzbFFmaZYdnDCQq7tF6xE6hm2ibuCwiOeE1h87b4vyKNCdgWwKuOO3h0MCZj1yI_7Di6Mh5b3SqWvPYMgHMan0DGjDSLY4ErclN1eYX5gX7J-j9Q0JkutshVlZuzfFqjxXSxIQ8f2loVqqK0oUXazMAEBYJRoUgfZgUo7rzVEfZnSoP3p76hlwLQY",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Estery 18, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0622392,
+          "lng": 19.9422536
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "89997575c45daff5dcf899ab3fd29318e1f24610",
+      "name": "Klubokawiarnia Relaks",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1181,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103724746168221155883/photos\">Adam Mikołajczyk MAMI FOTO STUDIO</a>"
+          ],
+          "photo_reference": "CoQBcwAAAH1c64nOBny92ggNrZfVhXo0zkgi7AU5SjgkwbJGocIBlJrjph6ZqD4cpWvv2sC2GDb6fplxMswOp-miC8Y3VkUOZUXfgmJpfw1oJ8p5RWli19yLJCPipm6HHN6mib1LqtTvsIchSzU4pEGHiIr5HuWrmQ9G8Zjaff8VkAB80vpzEhA3N6lA0vpuLvNd_7fo4N0RGhQv_9kz93OyyVvHiFSe2qjuajlY-g",
+          "width": 1772
+        }
+      ],
+      "place_id": "ChIJUaIzoBFbFkcRbLKbH1fHagE",
+      "rating": 4.4,
+      "reference": "CnRoAAAAURb_K0LWwYwmR7S4FrwITkoOK7EBwu1IqlaU-ASZDO0D1dFXqKmhhBzn4LdfHsHzx_fQHEgXpmah2gn6k-xFmaRMEvu3InVrw85mcCCoolWnxvNBBop7_n9oGOJSvzXWS6yfVA40HRz2258SujLAaBIQ1dO6B5nXs7QqGdhM_BRTyhoU-eW64tjBlCJnadH-o_M5To90Qyo",
+      "scope": "GOOGLE",
+      "types": [
+        "cafe",
+        "night_club",
+        "food",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Św. Tomasza 28, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.06343409999999,
+          "lng": 19.9372298
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "7fd25c06c732c215b184f38b939ba38eb5d7b65c",
+      "name": "Carpe Diem Klub",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "place_id": "ChIJ0Xo1LhBbFkcRA8gj_O6JVJ4",
+      "rating": 3.7,
+      "reference": "CnRjAAAAzyESyu1VyhOXui84vVsbsqw5gnTmSDnRFsSxgUwZ0XjdNQGz4StmEapfkI4dZlWhoqlbk_LpyOifHDbnqcS0nyHbtm0fa-y7oegGuf9XjXaMbMH7r_DphIaku0lLT9gyvBPDhB1TU-r4rGwD-FNeAxIQGCfPY9LsqrE5AuJOLCwyuxoU8edJ1HciElk2eviAgXwVkhCnwN0",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Sławkowska 6A, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.050942,
+          "lng": 19.946181
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "869afa111683076b00f56320e850ea7f835f768e",
+      "name": "Kolanko No 6",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111158346556284110652/photos\">Adam Kot</a>"
+          ],
+          "photo_reference": "CoQBcwAAAO0lSkj7Lwlrn7_PJlosf03Oa_nPPbUsneiXpDqsv8M5KY1KAwtc4yR3xBtugCQRQ2PcJ3mgVtF5tigRZgpRe5pJdw8avLpNtrkUyzuOZUII80ok_kpEzY3P5LL5IoTeGgwRHGu3ID47V31TfcN578XCqkiyyJmfs8jToNkohq3CEhC2WpOnuF-7BTRsVloabYxoGhS9SeB3p9oMXLBrxPPOnkN1SXOy0g",
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJDXVa30FbFkcR8S7Bl2_l6iM",
+      "rating": 4.5,
+      "reference": "CmRfAAAAUfSAs3ploPiHMT5NqlHSfyb6RX4Cc3G8c64Gjr0cpX4aPlPlITkksOVg-DCXzVKxUwB8v_RM6urlKA1lFX-viLwJ889VmJJutn87OwHSmlK37E3Kmx9ccc5WCR-ehZgLEhCRA-h6ihDeVGN8FlEzUfldGhQU28KYE9GNJOTVXviRTARyDJaYpQ",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "cafe",
+        "food",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Józefa 17, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.06114549999999,
+          "lng": 19.940622
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "62f45bba3f9b114634bee70594765a305f0b5e9b",
+      "name": "Pub-Kawiarnia \"Albo tak",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 640,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113968631345815453604/photos\">Pub-Kawiarnia &quot;Albo tak&quot;</a>"
+          ],
+          "photo_reference": "CoQBcwAAAANUkx7zCm2XYssjePVDM-VrgIuruNPnsgC7HU_DgLJtvyScYWGQ2HpoAjAbEcahVRH00nafWQa40MF-ANIRVfiMTMLgkPeahZSkJGxUiYQvWH51suDZXnUM078ld4k6MpesT0VhetlXPG9Se9e0Trje0k1V5edVpOQh3W5MbYA6EhC3pXHuvfvmuyz-P1krjN4yGhSJ9uSQgWh-M4KuTdSD3fMGTwXIXA",
+          "width": 480
+        }
+      ],
+      "place_id": "ChIJmzoTiBFbFkcRvON--cfCMPE",
+      "rating": 4.1,
+      "reference": "CnRsAAAAPAFH1AQG9teQRVEbptKdvhH_XSbWXCBOYuX5IpVDbkn6lh7kCVDYv9CNsYlc8XHwdTnhJbAl8w3IQOfJcY2WwTffJoqZLoK1WQxMU0zj-8SblKdQ49fGaoeI4K-enmrFxjKmSx-BL5XYbR7NK6la9hIQHSrTfpFjfaWHVw3hre4SdRoU2p5rmGxxWspMYXhhSlafm4es7qE",
+      "scope": "GOOGLE",
+      "types": [
+        "bar",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Mały Rynek 4, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0711098,
+          "lng": 19.923805
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "698210fbc731f675f0273d22772a277cbca3e9f8",
+      "name": "WINE GARAGE bar&shop",
+      "place_id": "ChIJPfot8qhbFkcRMuKFLbappjM",
+      "reference": "CnRnAAAAnlKFIXksjo0jJvNaSho7m4a-rrFPAUC08T5GS-aWMTjNILh_0EVzFkJVnElYQ7b4aX1IunVYZVEF1zfPk7lkCUaprEFPxeOLxMO9mpWA6QfxYKV60Vsq2VLukJsPS7yhS99EHP1qjRFB6nKBpBivqRIQPsPbTYrJfkc5ae67rYmnSxoUqPj962yTmysq0zL2rBrduGWflPc",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Józefitów 8, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0637936,
+          "lng": 19.9389172
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "25c106fbdf6ab08ddcd140893c9244fda2a8a392",
+      "name": "Pod Papugami. Pub",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111568369656637122770/photos\">Chri Po</a>"
+          ],
+          "photo_reference": "CoQBdwAAAF8HLTUIdqJXKYaozBFWE0zh1NEgzNqM9_zojMZ7huxAfxWEi-WXLZDuVCwlm-m1kh1R0Bdwu6WimxtTzVgsPs3WRKbHY4dcrUV8GrSXqQaFoC0KWIb-T7LrSJXVxKE5T-TsnBBVBwfh9uk9vwp535VvliHeVw0rvhY7aX30y1olEhD6foiCQHKvcZH0zXfXQo4EGhSpX6C73-P-QOHRBbQ2UmjzYuNu6A",
+          "width": 4000
+        }
+      ],
+      "place_id": "ChIJ24UzLA5bFkcRGjSTd9DPK88",
+      "rating": 3.7,
+      "reference": "CnRlAAAAmwcVrMBwMmz7ezUKm_eA6kkGxQQ9kqzInoqyAczO9dtAKl8hLWhQnc2BiF9ENsTftHelkaXrOKx6tRTQefljyaypDgdDMaWrklh2TsWJdtoT_Vas9_Po5LT1z0KgpoD5En8ksS6qP9umkacwkQDc2BIQM1jfV43Q-NdDTEI60yUgdBoUafLKp3x1IYHlnz_-N_08oBQr3Kc",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Świętego Jana 18, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0622692,
+          "lng": 19.9386346
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "8a763b2f532f564422ccd2cf6203a3976f576c3d",
+      "name": "Restauracja - pizzeria Virtuoso",
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104211843377750719847/photos\">Cezary Chuderski</a>"
+          ],
+          "photo_reference": "CoQBcwAAAAg3UV52uD-lSmRi5PlpYLR31uXZ7Gn_UTbkJTlwS_XGQT4Fy6dHZ7-0sECYUm1g1_MZUKeOPTsBepz7jnwelXrGZ8aya7JHk9SQUkxpbaeA8CExIvKX8_W8QgLqOSZd9m0wm9nL_hxeHccqapyWQNJzqSJn4ctNAv4XT5COm-TlEhCabeYmsMFjDzobSICh82xMGhRAWSIKPo2eK15c_8wFLn1MEek4nw",
+          "width": 4128
+        }
+      ],
+      "place_id": "ChIJ87NAHA5bFkcRjXOV5MP0rZE",
+      "rating": 3.1,
+      "reference": "CoQBcwAAAK2zVWd5Gpod3L8YNyL5mQe33OsGbvAcSVQJY26jJHmUwdzpy5jS_3LL1BRu47sYCt-hdJd33ZnETnStwh0RyKvfABoy5VxYFagPWgsj0x_6dyIXdR6eCVKbnys6qP7NaitOKkIr2KNw_mXcTtI0ZGBbTalqNqXiuA4nI8P1OeGZEhBikJi5BwfUolZKKdAF-9xtGhTK7bHbbXdR7bHCQsiPkajwOI0NwQ",
+      "scope": "GOOGLE",
+      "types": [ "restaurant", "food", "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Rynek Główny 44, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0618253,
+          "lng": 19.9400942
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id": "37a09903b6fe1e2b300394d4340ae0723234db4c",
+      "name": "Cafe Magia",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 1836,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107837306647491926168/photos\">Kamil Szostek</a>"
+          ],
+          "photo_reference": "CoQBdwAAAEson-HsNXt_e6x8TtEizUP0jDQNXfr7RejGcWmNFQWwrG2HtxvIt8cH3edkZUYbQxWUZUP36w_dLRxC07Rk9ILPRc1nInzWg8-LhYjf7wxVTj5ZZVRHoxeNNy_NwkxrjCJO0eWRtMSfIw1mDfhHnbjSrvRiv_7RmU80jw8VR7ZGEhDgjimU_lk9YLXnuzCsCQXIGhQ2vMlFrX4_Q4PX_k3iBWc-nP8HvA",
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJewoL7RFbFkcRPaUrrqROQiU",
+      "rating": 4.7,
+      "reference": "CmRdAAAArWytKeNXypYtDeLfZCB-mjgzEo6CgTXwoKHYWSiyfMh_xlCm3h7IonXgaifgvQYYTAPWhyCTFk-izrXJ2IsWa2iNzA1nup_aY6yOsti2PFnVMGyaGsCDiUoEzrdPZ95KEhBTasW7FXP-W9SyU6U8q1D5GhS30-XyCiGyjVJGLIXh3qwIGlHbHg",
+      "scope": "GOOGLE",
+      "types": [
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "plac Mariacki 3, Kraków"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0527713,
+          "lng": 19.9439621
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "4c5a4f21eeecf00a645fa52b98b2ce3fed7edf82",
+      "name": "PUB Propaganda",
+      "opening_hours": {
+        "open_now": true,
+        "weekday_text": [ ]
+      },
+      "photos": [
+        {
+          "height": 3456,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113123294987767899361/photos\">Oloman</a>"
+          ],
+          "photo_reference": "CoQBdwAAAGI6FPVxQn_xsqLqKQBmZeOBYYVMWMSGizCmQj_9ILsqP_gt7AF93ktwMGwzrPdzWVjRE5yI7TasiVCThrTZ4Ly3p5nwdTxFN8KnrB2fyl7hIXDEDqIgUqKHMK1MTjOYAdGo0-QEFv9sfL_6hOS9nmNWctAOeXhdo3fMYSwJamN7EhAFWPBGokyXOHJxiO7SlYd5GhTO41Ez8E0VS5BHGwX95vi0kxTa8g",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJv_gc_mpbFkcRnyAlH4nLZcU",
+      "rating": 4.5,
+      "reference": "CnRiAAAABD5w1ZL1Y0L_pBUch_i_0LkzTpO_ks3HmU_iuiNqVrnGcBQLYAk6E5lXPX_92xNDITj-f3CoFp4Zfuf_LfWEsK7gOtgwYtQizAaU8T1GxzMvQjTFVi99qR_T8rIq0BulG2xz1had3slm5LJx4pu4URIQY3l_6kS_5brMqlvkV1l5dxoUjaWazIGn98UwvO9ZLX0SWDkFp5Y",
+      "scope": "GOOGLE",
+      "types": [ "bar", "point_of_interest", "establishment" ],
+      "vicinity": "Miodowa 20, Kraków"
+    }
+  ],
+  "status": "OK"
+}
