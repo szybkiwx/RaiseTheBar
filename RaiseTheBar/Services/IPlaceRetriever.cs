@@ -9,5 +9,6 @@ namespace RiseTheBar.Services
     public interface IPlaceRetriever
     {
         IEnumerable<Place> GetPlaces(double lat, double lon);
+        PlaceDetails GetPlaceDetails(string id);
     }
 }

@@ -77,12 +77,12 @@ namespace RiseTheBar.Models
             }
         }
 
-        public string PlaceId { get; private set; }
-        public Location Location { get; private set; }
-        public string Name { get; private set; }
-        public decimal Rating { get; private set; }
-        public string Address { get; private set; }
-        public string PhotoUrl { get; private set; }
+        public string PlaceId { get; protected set; }
+        public Location Location { get; protected set; }
+        public string Name { get; protected set; }
+        public decimal Rating { get; protected set; }
+        public string Address { get; protected set; }
+        public string PhotoUrl { get; protected set; }
 
     }
 

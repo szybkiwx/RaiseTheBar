@@ -19,9 +19,7 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Moq.dl
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\RiseTheBar.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.dll
-C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Owin.dll
-C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.WebHost.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.Owin.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\RiseTheBar.pdb
@@ -29,8 +27,6 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Castle
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Moq.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.xml
-C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.xml
-C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\obj\Debug\RaiseTheBar.Tests.dll
@@ -38,3 +34,9 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\obj\Debug\RaiseT
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page1.json
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page2.json
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page3.json
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Unity.WebApi.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml

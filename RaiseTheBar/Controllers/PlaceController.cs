@@ -1,4 +1,5 @@
-﻿using RiseTheBar.Services;
+﻿using RiseTheBar.Models;
+using RiseTheBar.Services;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -9,16 +10,15 @@ using System.Web.Http;
 
 namespace RiseTheBar.Controllers
 {
-    [RoutePrefix("bar")]
+    [RoutePrefix("bars")]
     public class PlaceController : ApiController
     {
         private IPlaceRetriever _retriever;
-        private static double defaultLat = double.Parse(ConfigurationManager.AppSettings["defaultLat"]);
-        private static double defaultLon = double.Parse(ConfigurationManager.AppSettings["defaultLon"]);
-
-        public PlaceController(IPlaceRetriever retriever)
+        private IDefaulSearchSettings _settings;
+        public PlaceController(IPlaceRetriever retriever, IDefaulSearchSettings settings)
         {
             _retriever = retriever;
+            _settings = settings;
 
         }
 
@@ -28,13 +28,38 @@ namespace RiseTheBar.Controllers
         {
             if(!lat.HasValue || !lon.HasValue)
             {
-                lat = defaultLat;
-                lon = defaultLon;
+                lat = _settings.DefaultLat;
+                lon = _settings.DefaultLon;
+            }
+            var result = _retriever.GetPlaces(lat.Value, lon.Value).Select(
+                x => new Resource<Place>()
+                {
+                    ID = x.PlaceId,
+                    Type = "bars",
+                    Value = x
+                });
+
+            return Ok(result);
+        }
+
+        [Route("{id:string}")]
+        [HttpGet]
+        public IHttpActionResult GetPlace(string id)
+        {
+            var details = _retriever.GetPlaceDetails(id);
+            if (details == null)
+            {
+                return NotFound();
             }
 
+            var result = new Resource<PlaceDetails>()
+            {
+                ID = details.PlaceId,
+                Type = "bars",
+                Value = details
+            };
 
-
-            return Ok();
+            return Ok(result);
         }
 
     }
