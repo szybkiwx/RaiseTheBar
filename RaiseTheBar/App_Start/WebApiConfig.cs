@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace RiseTheBar
+namespace RaiseTheBar
 {
     public static class WebApiConfig
     {

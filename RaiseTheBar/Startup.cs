@@ -1,5 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using RaiseTheBar;
 using System.Web.Http;
 using Unity.WebApi;
 

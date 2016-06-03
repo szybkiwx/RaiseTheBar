@@ -42,7 +42,7 @@ namespace RiseTheBar.Controllers
             return Ok(result);
         }
 
-        [Route("{id:string}")]
+        [Route("{id}")]
         [HttpGet]
         public IHttpActionResult GetPlace(string id)
         {
