@@ -59,3 +59,5 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Redis
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Text.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\log4net.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\log4net.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\Microsoft.Owin.Diagnostics.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\Microsoft.Owin.Diagnostics.xml
