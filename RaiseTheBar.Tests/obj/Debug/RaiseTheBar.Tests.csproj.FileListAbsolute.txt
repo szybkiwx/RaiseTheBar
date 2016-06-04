@@ -36,3 +36,16 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\obj\Debug\RaiseTheBar.Tests.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\obj\Debug\RaiseTheBar.Tests.pdb
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Unity.WebApi.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page1.json
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page2.json
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\page3.json
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Services\details.json
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.Cors.xml

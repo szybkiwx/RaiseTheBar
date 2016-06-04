@@ -11,6 +11,7 @@ namespace RiseTheBar
     {
         public void Configuration(IAppBuilder appBuilder)
         {
+            appBuilder.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             HttpConfiguration httpConfiguration = new HttpConfiguration();
             WebApiConfig.Register(httpConfiguration);
 
@@ -19,6 +20,7 @@ namespace RiseTheBar
             httpConfiguration.DependencyResolver = new UnityDependencyResolver(UnityHelpers.GetConfiguredContainer());
 
             appBuilder.UseWebApi(httpConfiguration);
+           
         }
     }
 }

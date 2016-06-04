@@ -23,7 +23,9 @@ namespace RiseTheBar.Services
 
         public string GetStringData(string url)
         {
-            return _client.GetAsync(url).Result.Content.ReadAsStringAsync().Result;
+            var syncResponse = _client.GetAsync(url).Result;
+            var content = syncResponse.Content.ReadAsStringAsync().Result;
+            return content;
         }
     }
 }

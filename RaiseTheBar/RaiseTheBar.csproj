@@ -147,10 +147,12 @@
     <Compile Include="Models\PlaceDetails.cs" />
     <Compile Include="Models\Resource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\IDefaulSearchSettings.cs" />
+    <Compile Include="Services\DefaultSearchSettings.cs" />
+    <Compile Include="Services\IDefaultSearchSettings.cs" />
     <Compile Include="Services\IPlaceHttpClient.cs" />
     <Compile Include="Services\IPlaceRetriever.cs" />
     <Compile Include="Services\IQueryStringBuilder.cs" />
+    <Compile Include="Services\NoSuchPlaceException.cs" />
     <Compile Include="Services\PlaceRetriever.cs" />
     <Compile Include="Services\PlaceWebClient.cs" />
     <Compile Include="Services\QueryStringBuilder.cs" />
@@ -159,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="AppSecrets.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

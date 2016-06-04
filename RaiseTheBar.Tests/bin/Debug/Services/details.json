@@ -1,0 +1,259 @@
+﻿{
+  "html_attributions": [ ],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "3",
+        "short_name": "3",
+        "types": [ "street_number" ]
+      },
+      {
+        "long_name": "Pawia",
+        "short_name": "Pawia",
+        "types": [ "route" ]
+      },
+      {
+        "long_name": "Stare Miasto",
+        "short_name": "Stare Miasto",
+        "types": [ "sublocality_level_1", "sublocality", "political" ]
+      },
+      {
+        "long_name": "Kraków",
+        "short_name": "Kraków",
+        "types": [ "locality", "political" ]
+      },
+      {
+        "long_name": "Kraków",
+        "short_name": "Kraków",
+        "types": [ "administrative_area_level_3", "political" ]
+      },
+      {
+        "long_name": "Kraków",
+        "short_name": "Kraków",
+        "types": [ "administrative_area_level_2", "political" ]
+      },
+      {
+        "long_name": "małopolskie",
+        "short_name": "małopolskie",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Polska",
+        "short_name": "PL",
+        "types": [ "country", "political" ]
+      },
+      {
+        "long_name": "31-154",
+        "short_name": "31-154",
+        "types": [ "postal_code" ]
+      }
+    ],
+    "adr_address": "<span class=\"street-address\">Pawia 3</span>, <span class=\"postal-code\">31-154</span> <span class=\"locality\">Kraków</span>, <span class=\"country-name\">Polska</span>",
+    "formatted_address": "Pawia 3, 31-154 Kraków, Polska",
+    "formatted_phone_number": "12 660 01 00",
+    "geometry": {
+      "location": {
+        "lat": 50.065624,
+        "lng": 19.945442
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id": "d361d4e282ac5569d0f12a9a3c6b3b844e2cbbe4",
+    "international_phone_number": "+48 12 660 01 00",
+    "name": "Andel's Vienna House",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "poniedziałek: Czynne całą dobę",
+        "wtorek: Czynne całą dobę",
+        "środa: Czynne całą dobę",
+        "czwartek: Czynne całą dobę",
+        "piątek: Czynne całą dobę",
+        "sobota: Czynne całą dobę",
+        "niedziela: Czynne całą dobę"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2358,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100004286453129297407/photos\">Alfred Wilhelm Meier</a>"
+        ],
+        "photo_reference": "CoQBcwAAAFCyS5qUMDoLG3Og-RJMnx3igvs6rnfE9dCjDgMz1S20rMgr_FiYxQFW6mhuAsYzhWsuVnDRIM2V_aZDrEcbh1O7hI7_nUkslv3I4OEIkvafXkApkKgb1knZwFrGlvmPujYfJLG_EN-awClC2uPlGLNJrATTjkES_2Ke2SVt9ZBXEhD9EBpvjDnmNaLe9ak2Qv1dGhRTPWWvRoR1IDfOpmWi_7V5j49Qmw",
+        "width": 4191
+      },
+      {
+        "height": 1325,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAANljvzQygraEE3Od1cvp9qlSRyQC8pKCKJFF4wgaQ-_apq6iQVGoGjEDwzs34Q_q-DEmhO9cC3A0eRyvG3P1aVnyybvB4Vydk_ee8BJhdbkd6CCeH9OlkcCnutpx9qKPWOD1WizqylyXIn4YONvAvh73hkYUmZh-N-GDBwXyYVQJEhAhNOvY_4eFaxUbtpVQB65xGhQEnb61n3Z3qO0xgHERNVc_c0x49Q",
+        "width": 2048
+      },
+      {
+        "height": 1258,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAAAurf51dFo8stG-t-IDIBSSB9YDBzvavGUtGHobHyw0cN-8h4zR-dVJleN62YU-PVcz58rEjqEFqI_WUExZbOJC-MWlip2HD-f1CnOY-9b9iRQnqWwDb3uQ85naqQdf1R0nbliyEB1N4uMiDqTN53ud71XMjD8TRY19OFI_b-A7uEhCKypyxA1FCJG5AJDlMk8JlGhQJRACyMPLoDRtah0ydJd6mGwCG-A",
+        "width": 2048
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106033815554310116556/photos\">Maciej Janiec</a>"
+        ],
+        "photo_reference": "CoQBdwAAAC1mTs49hlKs911zu1ydVH6RaDjnsnXWJAyWkOf_O97OHt4VPAWUv4nuEA1iGdcjyWlnJ9Ws5c5OIc5CseKmg6C5WuPN9yxHbwczOmK0trwW6hXAEI95t7TIT0iJutrO6qyBFJ4zzbO4Cm7NNZyus3jsNXhEyrUE7NOPEWN8BTIWEhATiROGopJTwFuaKiestahvGhR_48uZvFqH6UPYu8d5M4pGscMwdQ",
+        "width": 4000
+      },
+      {
+        "height": 1358,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAAFRmnpR6o6iwc89PRmWGU32Hv1O95_X_Ihsk2yU2LHBdjhM_IUumUzNq9awmZfzztJCEJ2m_85cJIHyOXjTGYcGwRGWdR92yLYvxLyHJ-Yl4QexLuQrmSSwDdzPhtNNLE-uZYADm6eKUMBt5fxWHCPR5BCqqHdQB05HH6DCLLG2KEhD3WkpRwIkcjMTxi4lqST4rGhQjHrPvwayR6mUquK3HotgQJr0n2g",
+        "width": 2048
+      },
+      {
+        "height": 414,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAABorc8R_4Chw9hegawrD8dBmpg7DoK4kAwI0st8KqQU-onMFhGHuBv0WIVg4vy0dfDQsRjuVkFb58mHpzIpTEPLo2dTXpFv0p_YmqdPSBS0aI4BB1x77b4R0BLaC9tKplrmi6E5h4XfN_T5iDEHAnMKiYjHobDRQXa6t9GS4RCAIEhCxxB9p6SX0OkrEfIoGnGZMGhSzAweg5ZuFyRpyQYDLXZ7Z8h9EsA",
+        "width": 500
+      },
+      {
+        "height": 2123,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100004286453129297407/photos\">Alfred Wilhelm Meier</a>"
+        ],
+        "photo_reference": "CoQBcwAAAH3oAHGB02iMYQpmAzyBRWdE98pNUJU4VlZTMmRDu-Y4vh83ctD_4Sat8tdR-tMnYmQx1MioSK7crZd_rjSXch0gp2t4TO-rHKLMm1_4gJXz5LCAPCVP_-LeuS23ZHrg7iULYajFpEsYgDjET_Ay9i53rdQOCWatltung95s1mvFEhAWlPcI4Yda5jrncKt4hAjEGhQ6ymhNJFPjel4lCY29T324-iomtA",
+        "width": 3198
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106033815554310116556/photos\">Maciej Janiec</a>"
+        ],
+        "photo_reference": "CoQBdwAAAFyqZlA41K0QQHj6iE-v9n6orvOl8wNhgeDhhZ0_18sZae14eEA7veufOVH9r2Y3IuKs69mHEE5hk4HhWCmL73ch60ZwfWAn315jcrSqGGtBKsm0nv6O1Ad0FXoWyW7MJULDS4MsJS_NxyY5JC_ef_oYwwN30Sg1yac_M5GFRtpREhBGMZegXblYhSyhC9P39A7nGhTTgwN6wyShx00DtEVETQ059XD9ww",
+        "width": 3000
+      },
+      {
+        "height": 1978,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAAKjjBtnhcoPbxe0VpGG_xoqMgFKNrShLNy-aSmIzCVqFSHJA6tdnXq_LMD8hhC2MyJJDKTcr8aNWw4A9Ds-5h8-caQMsqeeGt93IZsWH9EDX8eBYflBQ1TuVxNvPxEV7k9Fghe4mo6pOYxBioPJg9PLnl9JYE6aoaU3_d-zXP-aNEhA6tr24vpPw0ekQTwOrrTsLGhTgqoGYgANuW695m0cEHx-Lqc9iYA",
+        "width": 1978
+      },
+      {
+        "height": 1382,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\">Andel&#39;s Vienna House</a>"
+        ],
+        "photo_reference": "CoQBcwAAACfc8cwKJFkEioyk0BtdovYP9F5sRBPtORRlT4xU4zkZBO9Aop8k9lqo_Ty00cbus1k2PylZYw1M6TiHgP9f7eZ0NL4j-w-FNeM4E4ijMU4Y1_qkQVYgXzYL-VFiBzzROi-TBC2cOD6qp7scRhKXhitDU0gSj_a8JFKQUzeCl57SEhDiELQL4sqafPNmcAjTxNhxGhSI829SWa8j_CC6rAQa0kPEON_HlQ",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJ8Tb4__8PFkcRwHm1b4IG3Zc",
+    "rating": 4.6,
+    "reference": "CnRoAAAASTnYJyLj-SqQPram-xutVoHWpWmFdP_EMs_5NBTPOXJfER-_XwynT3yt2QfDXwjdpeEgtRx1CUs8PHWAC0Bps9qL7QTgr1l28pc9KQCGiIRqHlr88mK4BUWzbZtnnLKo6Fc9jRI4-KvocDqrXK641BIQByNx1XooQx-AY8Php_pJnRoUPDnQMm_LLq3FH0GRg7KeCb_V1cA",
+    "reviews": [
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Piotr.Szostak .piotr.szostak",
+        "author_url": "https://plus.google.com/107465126122568968627",
+        "language": "pl",
+        "profile_photo_url": "//lh6.googleusercontent.com/-HJvAB4d74M8/AAAAAAAAAAI/AAAAAAAAHXQ/pEJwUw1x7rc/photo.jpg",
+        "rating": 5,
+        "text": "Polecam wszyskim ",
+        "time": 1448904565
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Witek Gwóźdź",
+        "author_url": "https://plus.google.com/110433458496483866745",
+        "language": "pl",
+        "rating": 5,
+        "text": "Niezmiennie mój ulubiony hotel krakowski. Niezmiennie sympatyczna obsługa. Niezmiennie wszystko na TIP TOP :).\nDziękuję Panu Dyrektorowi za osobiste życzenia i świetne wyroby cukiernicze ! :)\nBędę u Was już za niecały miesiąc. A potem ponownie w końcu czerwca.",
+        "time": 1463838862
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Roman Moz",
+        "author_url": "https://plus.google.com/111326456949929572156",
+        "language": "pl",
+        "rating": 5,
+        "text": "Witam. Panstwa hotel spelnil kolejny raz nasze oczekiwania. Jest polozony w super lokalizacji, obsluga na najwyzszym poziomie, czystosc i wystroj to tez Wasze atuty. Hotel jest przystepny cenowo i stosunek jakosci do ceny jest dobry. Moj kolega, ktory pol zycia przemieszkal w hotelach na calym swiecie, rowniez byl pod wrazeniem. Panstwa hotel jest naprawde super i jedyna rzeczą, którą można byłoby usprawnic jest mozliwosc wylaczenia nawiewu w sypialni... Proponuje nic nie zmieniac, bo jeszcze cos mozna zepsuc :)",
+        "time": 1439320856
+      },
+      {
+        "aspects": [
+          {
+            "rating": 2,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Maciej Marciniak",
+        "author_url": "https://plus.google.com/106646353542774692182",
+        "language": "pl",
+        "profile_photo_url": "//lh5.googleusercontent.com/-Si1fjYd3vII/AAAAAAAAAAI/AAAAAAAAQAo/3lTvIf2NSrk/photo.jpg",
+        "rating": 4,
+        "text": "Super lokalizacja",
+        "time": 1463774984
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Bartosz Tesluk",
+        "author_url": "https://plus.google.com/101754732733399529994",
+        "language": "pl",
+        "profile_photo_url": "//lh3.googleusercontent.com/-qE0oONorjMM/AAAAAAAAAAI/AAAAAAAAFgM/lmEom80INSY/photo.jpg",
+        "rating": 5,
+        "text": "Śniadania znakomite. Pokoje funkcjonalne, obsługa na której można polegać. Do tego 3 minuty do rynku! ",
+        "time": 1453325421
+      }
+    ],
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=10942909826869852608",
+    "utc_offset": 120,
+    "vicinity": "Pawia 3, Kraków",
+    "website": "http://www.viennahouse.com/andels-cracow/"
+  },
+  "status": "OK"
+}

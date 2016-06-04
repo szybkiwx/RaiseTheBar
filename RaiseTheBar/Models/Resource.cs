@@ -5,7 +5,7 @@ using System.Web;
 
 namespace RiseTheBar.Models
 {
-    public class Resource<T>
+    public class Resource<T> where T : class
     {
         public string ID { get; set; }
         public string Type { get; set; }
@@ -17,6 +17,8 @@ namespace RiseTheBar.Models
             }
         }
         public T Value { get; set; }
+
+
     }
 
 }

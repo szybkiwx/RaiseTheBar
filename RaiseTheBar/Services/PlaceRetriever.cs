@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Configuration;
 using Newtonsoft.Json.Linq;
 using System.Globalization;
+using System.Threading;
 
 namespace RiseTheBar.Services
 {
@@ -38,12 +39,22 @@ namespace RiseTheBar.Services
                     { "radius", "2000" }
                 };
             string nextPageToken = null;
-            
-            while(true)
+            int retryCount = 0;
+            while (true)
             {
                 string query = _qsBuilder.Build(requestParams);
                 string stringResult = _client.GetStringData("nearbysearch/json?" + query);
                 JObject deserialized = JObject.Parse(stringResult);
+
+                //according to places API next_page_token starts working with slight delay
+                //reisuing the same requrst is required
+                if (deserialized["status"].ToString() != "OK")
+                {
+                    continue;
+                }
+
+                retryCount = 0;
+
                 var listPart = _processResults(deserialized);
                 returnValue.AddRange(listPart);
                 var nextPageTokenObject = deserialized["next_page_token"];
@@ -77,15 +88,29 @@ namespace RiseTheBar.Services
             string stringResult = _client.GetStringData("details/json?" + query);
             JObject deserialized = JObject.Parse(stringResult);
 
-            PlaceDetails.PlaceDetailBuilder builder = (PlaceDetails.PlaceDetailBuilder)_mapPlace(deserialized["result"]);
+            JToken result = deserialized["result"];
 
-            builder.WithPhoneNumber(deserialized["formatted_phone_number"].ToString());
-            var reviews = deserialized["reviews"].Select(x =>
+            if (result == null)
+            {
+                throw new NoSuchPlaceException();
+            }
+
+            PlaceDetails.PlaceDetailBuilder placeBuilder = _mapPlace(result);
+
+            placeBuilder.WithPhoneNumber(result["international_phone_number"].ToString());
+            if (deserialized["photos"] != null)
+            {
+                string photo = _getPhoto(deserialized);
+                placeBuilder.WithPhoto(photo);
+            }
+
+            var reviews = result["reviews"].Select(x =>
             {
                 return new Review(int.Parse(x["rating"].ToString()), x["text"].ToString(), x["author"].ToString());
             });
-            builder.WithReviews(reviews);
-            return builder.Build();
+
+            placeBuilder.WithReviews(reviews);
+            return placeBuilder.Build();
 
         }
 
@@ -97,34 +122,28 @@ namespace RiseTheBar.Services
             });
         }
 
-        private Place.PlaceBuilder _mapPlace(JToken result)
+        private PlaceDetails.PlaceDetailBuilder _mapPlace(JToken result)
         {
             var locationToken = result["geometry"]["location"];
             var location = new Location(
                 double.Parse(locationToken["lat"].ToString()),
                 double.Parse(locationToken["lng"].ToString()));
 
-            var placeBuilder = new Place.PlaceBuilder(result["place_id"].ToString())
+            var placeBuilder = new PlaceDetails.PlaceDetailBuilder(result["place_id"].ToString())
                 .WithAddress(result["vicinity"].ToString())
                 .WithLocation(location)
                 .WithName(result["name"].ToString());
-
-            if (result["photos"] != null)
-            {
-                string photoUrl = _getPhotoUrl(result);
-                placeBuilder.WithPhotoUrl(photoUrl);
-            }
-
+            
             var rating = result["rating"];
             if (rating != null)
             {
-                placeBuilder.WithRating(decimal.Parse(rating.ToString(), new CultureInfo("us-US")));
+                placeBuilder.WithRating(decimal.Parse(rating.ToString()));
             }
 
             return placeBuilder;
         }
 
-        private string _getPhotoUrl(JToken result)
+        private string _getPhoto(JToken result)
         {
             var photoQuery = _qsBuilder.Build(new Dictionary<string, object>()
                     {

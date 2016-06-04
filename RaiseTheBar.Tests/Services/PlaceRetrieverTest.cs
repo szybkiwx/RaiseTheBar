@@ -24,7 +24,7 @@ namespace RaiseTheBar.Tests.Services
         }
 
         [TestMethod]
-        public void TestGetPlaces()
+        public void PlaceRetrieverTest_TestGetPlaces()
         {
 
             string url1 = "nearbysearch/json?" +
@@ -41,6 +41,21 @@ namespace RaiseTheBar.Tests.Services
             IEnumerable<Place> result = sut.GetPlaces(50.0612826, 19.9371411);
 
             Assert.AreEqual(60, new List<Place>(result).Count);
+        }
+
+        [TestMethod]
+        public void PlaceRetrieverTest_TestGetPlaceDetail()
+        {
+
+            string url= "details/json?key=MY_KEY&placeid=abc";
+            
+
+            clientMock.Setup(x => x.GetStringData(url)).Returns(File.ReadAllText("Services\\details.json"));
+        
+            PlaceDetails result = sut.GetPlaceDetails("abc");
+
+            Assert.AreEqual("Andel's Vienna House", result.Name);
+            Assert.AreEqual("+48 12 660 01 00", result.PhoneNumber);
         }
     }
 }

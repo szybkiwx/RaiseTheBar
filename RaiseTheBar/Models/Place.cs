@@ -16,6 +16,86 @@ namespace RiseTheBar.Models
         public double Lon { get;  }
     }
 
+
+    public class Place
+    {
+        public class PlaceBuilderBase<T> where T: PlaceBuilderBase<T>
+        {
+            protected T _self;
+
+            string _placeId;
+            Location _location;
+            string _name;
+            decimal _rating;
+            string _address;
+
+
+            public PlaceBuilderBase(string placeId)
+            {
+                _self = (T)this;
+                _placeId = placeId;
+            }
+
+            public T WithName(string name)
+            {
+                _name = name;
+                return _self;
+            }
+
+            public T WithLocation(Location location)
+            {
+                _location = location;
+                return _self;
+            }
+
+            public T WithRating(decimal rating)
+            {
+                _rating = rating;
+                return _self;
+            }
+
+            public T WithAddress(string address)
+            {
+                _address = address;
+                return _self;
+            }
+            
+
+            public Place Build()
+            {
+                return new Place()
+                {
+                    PlaceId = _placeId,
+                    Location = _location,
+                    Name = _name,
+                    Rating = _rating,
+                    Address = _address
+                    
+                };
+            }
+        }
+
+        public class PlaceBuilder : PlaceBuilderBase<PlaceBuilder>
+        {
+            public PlaceBuilder(string placeId) : base(placeId)
+            {
+
+            }
+        }
+
+
+
+        public string PlaceId { get; protected set; }
+        public Location Location { get; protected set; }
+        public string Name { get; protected set; }
+        public decimal Rating { get; protected set; }
+        public string Address { get; protected set; }
+
+    }
+
+
+
+/*
     public class Place
     {
         public class PlaceBuilder
@@ -25,7 +105,6 @@ namespace RiseTheBar.Models
             string _name;
             decimal _rating;
             string _address;
-            string _photoUrl;
 
 
             public PlaceBuilder(string placeId)
@@ -57,11 +136,7 @@ namespace RiseTheBar.Models
                 return this;
             }
 
-            public PlaceBuilder WithPhotoUrl(string photoUrl)
-            {
-                _photoUrl = photoUrl;
-                return this;
-            }
+            
 
             public Place Build()
             {
@@ -71,8 +146,8 @@ namespace RiseTheBar.Models
                     Location = _location,
                     Name = _name,
                     Rating = _rating,
-                    Address = _address,
-                    PhotoUrl = _photoUrl
+                    Address = _address
+                    
                 };
             }
         }
@@ -82,9 +157,8 @@ namespace RiseTheBar.Models
         public string Name { get; protected set; }
         public decimal Rating { get; protected set; }
         public string Address { get; protected set; }
-        public string PhotoUrl { get; protected set; }
 
     }
-
+    */
    
 }

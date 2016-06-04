@@ -14,8 +14,8 @@ namespace RiseTheBar.Controllers
     public class PlaceController : ApiController
     {
         private IPlaceRetriever _retriever;
-        private IDefaulSearchSettings _settings;
-        public PlaceController(IPlaceRetriever retriever, IDefaulSearchSettings settings)
+        private IDefaultSearchSettings _settings;
+        public PlaceController(IPlaceRetriever retriever, IDefaultSearchSettings settings)
         {
             _retriever = retriever;
             _settings = settings;
@@ -24,14 +24,11 @@ namespace RiseTheBar.Controllers
 
         [Route("")]
         [HttpGet]
-        public IHttpActionResult List(double? lat, double? lon)
+        public IHttpActionResult List()
         {
-            if(!lat.HasValue || !lon.HasValue)
-            {
-                lat = _settings.DefaultLat;
-                lon = _settings.DefaultLon;
-            }
-            var result = _retriever.GetPlaces(lat.Value, lon.Value).Select(
+            double lat = _settings.DefaultLat;
+            double lon = _settings.DefaultLon;
+            var result = _retriever.GetPlaces(lat, lon).Select(
                 x => new Resource<Place>()
                 {
                     ID = x.PlaceId,
@@ -46,8 +43,12 @@ namespace RiseTheBar.Controllers
         [HttpGet]
         public IHttpActionResult GetPlace(string id)
         {
-            var details = _retriever.GetPlaceDetails(id);
-            if (details == null)
+            PlaceDetails details;
+            try
+            {
+                details = _retriever.GetPlaceDetails(id);
+            }
+            catch(NoSuchPlaceException)
             {
                 return NotFound();
             }

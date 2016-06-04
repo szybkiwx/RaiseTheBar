@@ -20,14 +20,17 @@ namespace RiseTheBar.Models
     }
     public class PlaceDetails : Place
     {
-        public class PlaceDetailBuilder: PlaceBuilder
+        public class PlaceDetailBuilder : PlaceBuilderBase<PlaceDetailBuilder>
         {
             private string _phoneNumber;
+            private string _photo;
             private IEnumerable<Review> _reviews;
 
             public PlaceDetailBuilder(string placeId) : base(placeId)
             {
             }
+
+
 
             public PlaceDetailBuilder WithPhoneNumber(string number)
             {
@@ -41,12 +44,19 @@ namespace RiseTheBar.Models
                 return this;
             }
 
-            public PlaceDetails Build()
+            public PlaceDetailBuilder WithPhoto(string photo)
+            {
+                _photo = photo;
+                return this;
+            }
+
+            public new PlaceDetails Build()
             {
                 Place place = base.Build();
                 PlaceDetails placeDetails = new PlaceDetails(place);
                 placeDetails.PhoneNumber = _phoneNumber;
                 placeDetails.Reviews = _reviews;
+                placeDetails.Photo = _photo;
                 return placeDetails;
             }
         }
@@ -59,10 +69,11 @@ namespace RiseTheBar.Models
             Address = place.Address;
             Name = place.Name;
             PhoneNumber = PhoneNumber;
-            PhotoUrl = PhotoUrl;
+            Photo = Photo;
             
         }
 
+        public string Photo { get; private set; }
         public string PhoneNumber { get; private set; }
         public IEnumerable<Review> Reviews { get; private set; }
     }
