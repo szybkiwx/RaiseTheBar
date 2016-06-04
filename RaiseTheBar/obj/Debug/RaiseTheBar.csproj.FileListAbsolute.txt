@@ -50,3 +50,12 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\Microsoft.Practice
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\Microsoft.Practices.Unity.Configuration.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\obj\Debug\RaiseTheBar.csprojResolveAssemblyReference.cache
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Common.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Interfaces.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Redis.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Text.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Common.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Redis.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\ServiceStack.Text.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\log4net.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar\bin\log4net.xml

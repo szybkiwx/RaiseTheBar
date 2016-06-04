@@ -1,6 +1,7 @@
 ﻿using Microsoft.Practices.Unity;
 using RaiseTheBar.Services;
 using RiseTheBar.Services;
+using ServiceStack.Redis;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -41,6 +42,10 @@ namespace RiseTheBar
                         x.Resolve<IPlaceHttpClient>(),
                         x.Resolve<IQueryStringBuilder>(),
                         ConfigurationManager.AppSettings["apiKey"])));
+            container.RegisterType<ICashingService, RedisCachingService>();
+            container.RegisterType<RedisClient>(
+                new InjectionFactory(x =>
+                    new RedisClient(ConfigurationManager.AppSettings["redisHost"])));
 
         }
 

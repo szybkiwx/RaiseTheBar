@@ -39,7 +39,7 @@ namespace RiseTheBar.Services
                     { "radius", "2000" }
                 };
             string nextPageToken = null;
-            int retryCount = 0;
+
             while (true)
             {
                 string query = _qsBuilder.Build(requestParams);
@@ -52,8 +52,6 @@ namespace RiseTheBar.Services
                 {
                     continue;
                 }
-
-                retryCount = 0;
 
                 var listPart = _processResults(deserialized);
                 returnValue.AddRange(listPart);
@@ -95,13 +93,16 @@ namespace RiseTheBar.Services
                 throw new NoSuchPlaceException();
             }
 
-            PlaceDetails.PlaceDetailBuilder placeBuilder = _mapPlace(result);
+            Place.PlaceBuilder placeBuilder = _mapPlace(result);
 
-            placeBuilder.WithPhoneNumber(result["international_phone_number"].ToString());
+            var placeDetailsBuilder = new PlaceDetails.PlaceDetailBuilder(placeBuilder);
+
+
+            placeDetailsBuilder.WithPhoneNumber(result["international_phone_number"].ToString());
             if (deserialized["photos"] != null)
             {
                 string photo = _getPhoto(deserialized);
-                placeBuilder.WithPhoto(photo);
+                placeDetailsBuilder.WithPhoto(photo);
             }
 
             var reviews = result["reviews"].Select(x =>
@@ -109,8 +110,8 @@ namespace RiseTheBar.Services
                 return new Review(int.Parse(x["rating"].ToString()), x["text"].ToString(), x["author"].ToString());
             });
 
-            placeBuilder.WithReviews(reviews);
-            return placeBuilder.Build();
+            placeDetailsBuilder.WithReviews(reviews);
+            return placeDetailsBuilder.Build();
 
         }
 
@@ -122,14 +123,15 @@ namespace RiseTheBar.Services
             });
         }
 
-        private PlaceDetails.PlaceDetailBuilder _mapPlace(JToken result)
+        private Place.PlaceBuilder _mapPlace(JToken result)
         {
             var locationToken = result["geometry"]["location"];
-            var location = new Location(
-                double.Parse(locationToken["lat"].ToString()),
-                double.Parse(locationToken["lng"].ToString()));
+            var location = new Location() {
+                Lat = double.Parse(locationToken["lat"].ToString()),
+                Lon = double.Parse(locationToken["lng"].ToString())
+            };
 
-            var placeBuilder = new PlaceDetails.PlaceDetailBuilder(result["place_id"].ToString())
+            var placeBuilder = new Place.PlaceBuilder(result["place_id"].ToString())
                 .WithAddress(result["vicinity"].ToString())
                 .WithLocation(location)
                 .WithName(result["name"].ToString());

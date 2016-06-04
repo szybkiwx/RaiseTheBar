@@ -49,3 +49,12 @@ C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Servic
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.Cors.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\System.Web.Cors.dll
 C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Redis.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Text.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Common.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Redis.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Text.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\ServiceStack.Common.xml
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\log4net.dll
+C:\Users\Andrzej\Documents\GitHub\RaiseTheBar\RaiseTheBar.Tests\bin\Debug\log4net.xml

@@ -1,4 +1,5 @@
-﻿using RiseTheBar.Models;
+﻿using RaiseTheBar.Services;
+using RiseTheBar.Models;
 using RiseTheBar.Services;
 using System;
 using System.Collections.Generic;
@@ -15,10 +16,12 @@ namespace RiseTheBar.Controllers
     {
         private IPlaceRetriever _retriever;
         private IDefaultSearchSettings _settings;
-        public PlaceController(IPlaceRetriever retriever, IDefaultSearchSettings settings)
+        private ICashingService _cache;
+        public PlaceController(IPlaceRetriever retriever, IDefaultSearchSettings settings, ICashingService cache)
         {
             _retriever = retriever;
             _settings = settings;
+            _cache = cache;
 
         }
 
@@ -28,14 +31,23 @@ namespace RiseTheBar.Controllers
         {
             double lat = _settings.DefaultLat;
             double lon = _settings.DefaultLon;
-            var result = _retriever.GetPlaces(lat, lon).Select(
-                x => new Resource<Place>()
-                {
-                    ID = x.PlaceId,
-                    Type = "bars",
-                    Value = x
-                });
 
+            string cacheKey = string.Format("places-{0}-{1}", lat, lon);
+
+            IEnumerable<Place> places = _cache.Get<IEnumerable<Place>>(cacheKey);
+            if (places == null)
+            {
+                places = _retriever.GetPlaces(lat, lon);
+                _cache.Set(cacheKey, places);
+                
+            }
+            IEnumerable<Resource<Place>> result = places.Select(
+                    x => new Resource<Place>()
+                    {
+                        ID = x.PlaceId,
+                        Type = "bars",
+                        Value = x
+                    });
             return Ok(result);
         }
 
@@ -43,12 +55,17 @@ namespace RiseTheBar.Controllers
         [HttpGet]
         public IHttpActionResult GetPlace(string id)
         {
+            string cacheKey = string.Format("place-{0}", id);
             PlaceDetails details;
             try
             {
-                details = _retriever.GetPlaceDetails(id);
+                details = _cache.Get<PlaceDetails>(cacheKey);
+                if (details == null)
+                {
+                    details = _retriever.GetPlaceDetails(id);
+                }
             }
-            catch(NoSuchPlaceException)
+            catch (NoSuchPlaceException)
             {
                 return NotFound();
             }
